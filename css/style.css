@@ -1,0 +1,59 @@
+/*Final CSS*/
+body
+{
+    margin: 0 auto;
+}
+.better-with-pepsi-promo__bg {
+    background-image: url(/images/PEP_BWP_D.jpg);
+    background-repeat:no-repeat;
+    background-color: #265cc5;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-size: 160vw;
+    background-position: 30% 0;
+    width: 100%;
+    min-height: 650px;
+    max-height: 650px;   
+}
+.better-with-pepsi-promo__tagline img
+{
+    position: absolute;
+    width: 37%;
+    bottom: 2%;
+    right: 0;
+}
+.left_main_container
+{
+    align-items: center;
+    vertical-align: middle;
+    width: 35%;
+    min-height: 650px;
+    max-height: 650px; 
+    position: absolute;
+    background-color: #265cc5;
+    position: absolute;
+}
+.left_sub_container1
+{   
+    margin: 15% 0% 0% 0%;
+    text-align: center;
+    background: #1437bf;
+    padding: 0px 0px 5px 0px;
+}
+.left_sub_container2
+{   
+    text-align: center; 
+    margin: 5% 0% 0% 0%;     
+    background: #1437bf;
+}
+.left_sub_container1 span
+{  
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+.left_sub_container2  span
+{
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif
+}
