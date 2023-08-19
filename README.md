@@ -1,2 +1,2 @@
-# Assignment # 6 Related to FlexBox 
+# Assignment # 6 Related to Pepsi Website
 https://sunny-gnome-ac848d.netlify.app/
