@@ -57,11 +57,11 @@
     color: white;
     font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif
 } */
-/* header CSS */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
+/* Header*/
 .navbar {
     width: 100%;
     background-color: #3466c3;
@@ -69,10 +69,13 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
+    height: 90px;
 }
-.navbar>.logo{
-
-    right: 10px;
+.navbar>.logo>img
+{
+    margin-left: 2rem;
+    margin-right: 4rem;
+    width: 60px;
 }
 .navbar>.menu {
     float: left;
@@ -84,38 +87,180 @@ body {
     text-transform: uppercase;
     justify-content: space-evenly;
 }
-.navcta
+.navbar>.navcta
 {
     float: right !important;
-    right: 20px;
-    padding: 12px;
+    margin-left: 36rem;
     color: white;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-    border: 1px solid #fff;
-    border-radius: 30px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    width: 12%;
+    height: 17%;
+    text-align: center;
+    padding: 0.4em 1.85em;
+    text-transform: uppercase;
 }
+/* Section 1*/
 .section1
 {
+    max-width: 1366px;
+    max-height: 762px;
     display: flex;
     background-image: url("/images/Section\ 1\ background.png");
 }
-/* .secleftside
+.secleftside
 {
-} */
-.secleftside>img
+    margin-left: -145px;
+}
+.section1>.secleftside>img
 {
-    max-width: 400px;
-    margin-top: 100px;
+    max-width: 829px;
+    max-height: 670px;
+    /* left: 100px; */
+    margin-top: 170px;
+}
+.section1>.secrightside
+{
+    width: 100%;
+    margin-left: -50px;
+}
+.section1>.secrightside>img
+{
+    max-width: 488px;
+    max-height: 306px;
+    margin-top: 180px;
 
 }
-.secrightside>img
+.sec1cta
 {
-    max-width: 300px;
-    margin-top: 100px;
-    right: 10px;
+    margin: 6.5% 23%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 22%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 0px;
+    cursor: pointer;
 }
+.sec1cta>a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+}
+.section1>.secrightside>p
+{
+    color: #fff;
+    font-size: .721rem;
+    text-align: center;
+    max-width: 425px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+/* Section 2*/
+.section2
+{
+    position: relative;
+    max-width: 1366px;
+    max-height: 660px;
+    display: flex;
+    background-color: #000;
+}
+.sec2leftside
+{
+    margin-left: -145px;
+}
+.section2>.sec2leftside>img
+{
+    max-width: 949px;
+    max-height: 890px;
+    margin-top: -106px;
+    margin-left: 90px;
+}
+.sec2new
+{
+    max-width: 185px !important;
+    margin-left: 620px !important;
+    margin-top: -1068px !important;
+}
+.section2>.sec2rightside
+{
+    width: 100%;
+    margin-left: 50px;
+}
+.section2>.sec2rightside>.sec2rightimg1
+{
+    width: 485px;
+    margin-top: 88px;
+    margin-left: -195px;
+
+}
+.section2>.sec2rightside>.sec2rightimg2
+{
+    width: 350px;
+    margin-top: 23px;
+    margin-left: -128px;
+
+}
+.section2>.sec2rightside>.video1
+{
+    margin-left: -190px;
+    margin-top: 20px;
+}
+.section2>.sec2rightside>.video2
+{
+    margin-left: 65px;
+    margin-top: -159px;
+}
+.section2>.sec2rightside>.video1>.video-title1
+{
+    color: #fff;
+    text-align: center;
+    margin-left: -360px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.section2>.sec2rightside>.video2>.video-title2
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -120px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.sec2cta
+{
+    margin: 6.5% 23%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 22%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 0px;
+    cursor: pointer;
+}
+.sec2cta>a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+}
+.section2>.sec2rightside>p
+{
+    color: #fff;
+    font-size: .721rem;
+    text-align: center;
+    max-width: 425px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+/*Footer*/
 .footer_area{
     display: flex;
     align-items: center;
@@ -123,9 +268,9 @@ body {
     justify-content: space-around;
     height: 250px;
 }
-.footer_area>image>img
+.footer_area>.image>img
 {
-    width: 400px;
+    width: 101px;
 }
 .ql1>ul>li>a,.ql2>ul>li>a,.ql3>ul>li>a
 {
@@ -133,12 +278,14 @@ body {
     font-size: 1.1rem;
     margin-bottom: 1rem;
     font-weight: 600;
+    line-height: 25px;
     color:#fff;    
     text-decoration: none;
 }
-.ql4>ul>li>a
+.ql4>a>img
 {
-    max-width: 20px;
-    position: relative;
+    width: 30px;
+    align-items: center;
+    padding: 5px;
 }
 ul{list-style-type: none;}
