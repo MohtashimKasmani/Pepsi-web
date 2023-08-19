@@ -58,17 +58,21 @@
     font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif
 } */
 /* header CSS */
-body {font-family: Arial, Helvetica, sans-serif;}
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
 .navbar {
     width: 100%;
     background-color: #3466c3;
     overflow: auto;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 .navbar>.logo{
-    width: 100%;
+
+    right: 10px;
 }
 .navbar>.menu {
     float: left;
@@ -77,10 +81,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
+    text-transform: uppercase;
+    justify-content: space-evenly;
 }
 .navcta
 {
-    float: right;
+    float: right !important;
     right: 20px;
     padding: 12px;
     color: white;
@@ -95,19 +101,44 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: flex;
     background-image: url("/images/Section\ 1\ background.png");
 }
-.secleftside
+/* .secleftside
 {
-    position: relative;
-}
+} */
 .secleftside>img
 {
-    position: absolute;
-    max-width: 800px;
+    max-width: 400px;
     margin-top: 100px;
+
 }
 .secrightside>img
 {
-    max-width: 800px;
+    max-width: 300px;
     margin-top: 100px;
-    position: right;
+    right: 10px;
 }
+.footer_area{
+    display: flex;
+    align-items: center;
+    background-color: #3466c3;
+    justify-content: space-around;
+    height: 250px;
+}
+.footer_area>image>img
+{
+    width: 400px;
+}
+.ql1>ul>li>a,.ql2>ul>li>a,.ql3>ul>li>a
+{
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color:#fff;    
+    text-decoration: none;
+}
+.ql4>ul>li>a
+{
+    max-width: 20px;
+    position: relative;
+}
+ul{list-style-type: none;}
